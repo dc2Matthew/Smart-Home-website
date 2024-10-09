@@ -1,17 +1,30 @@
+#better.home { 
+    background-image: url(dining-table-large-sofa-barstools.jpg);
+    animation:
+}
+
+
+
+
+
 * {
     box-sizing: border-box;
 }
 
-img {
-    max-width: 100%;
-    object-fit: cover;
-}
 
 :root {
     --color-vars-here: #FFF;
+    --the-lines: black;
+    --image-height: 500px;
 }
 
-body {
+.img {
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+
+.body {
     margin: 0;
     background-color: var(--color-vars-here);
 }
@@ -22,6 +35,14 @@ body {
     align-items: center;
 }
 
+
+.navbar ul{
+    list-style-type: none ;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
 .navbar a {
     color: white;
     text-decoration: none;
@@ -38,3 +59,53 @@ body {
     text-align: center;
     float: left;
 }
+
+.text-top{
+    justify-self: flex-end;
+}
+
+.welcome{
+    float: right;
+}
+
+h1 {
+    color: grey;
+}
+
+h2 {
+    color: grey;
+}
+footer {
+    float: left;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px var(--the-lines);
+}
+
+
+
+.col.half {
+    width: 48%;
+}
+
+.col.half > img {
+    height: var(--image-height);
+}
+
+section.row:nth-of-type(odd) > section.col:nth-child(2) {
+    order: -1;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+
+}
+
