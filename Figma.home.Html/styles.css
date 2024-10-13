@@ -1,11 +1,3 @@
-#better.home { 
-    background-image: url(dining-table-large-sofa-barstools.jpg);
-    animation:
-}
-
-
-
-
 
 * {
     box-sizing: border-box;
@@ -107,5 +99,10 @@ section.row:nth-of-type(odd) > section.col:nth-child(2) {
     padding: 0%;
     display: flex;
 
+}
+
+.Title {
+        display: flex;
+    justify-content: center;
 }
 
