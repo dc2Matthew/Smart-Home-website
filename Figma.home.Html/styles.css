@@ -28,29 +28,6 @@
 }
 
 
-.navbar ul{
-    list-style-type: none ;
-    background-color: grey;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-
-.navbar a:hover{
-    background-color: rgb(130, 105, 74);
-}
-
-.navbar li{
-    text-align: center;
-    float: left;
-}
 
 .text-top{
     justify-self: flex-end;
@@ -93,16 +70,28 @@ section.row:nth-of-type(odd) > section.col:nth-child(2) {
     order: -1;
 }
 
-.navbar {
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-
-}
-
-.Title {
+.title {
         display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.room {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Interior {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Bath {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
 }
 
